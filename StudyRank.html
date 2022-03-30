@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let KT = +prompt("Diem KT: ");
+    let GK = +prompt("Diem Giua ki: ");
+    let CK = +prompt("Diem cuoi ki: ");
+    let TB = (KT + GK*2 + CK*3)/6;
+    if(TB>=8){
+        alert('Xep loai Gioi');
+    }else if(TB >= 6.5){
+        alert('Xep loai Kha');
+    }else alert('Xep loai TB');
+
+</script>
+</body>
+</html>
